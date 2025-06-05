@@ -38,7 +38,7 @@ python rock_paper_scissors.py
 
 - Button press handled using lambda:
 ```bash
-self.rock.clicked.connect(lambda: self.play("Rock"))
+self.rock.clicked.connect(lambda: self.play("🗿"))
 ```
 - Button disable after play:
 ```bash
