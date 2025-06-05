@@ -1,4 +1,4 @@
-#Rock Paper Scissor Remake
+#Rock Paper Scissor
 
 import sys, os, random
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout
@@ -144,10 +144,7 @@ class MainWindow(QWidget):
         self.rock.setEnabled(True)
         self.paper.setEnabled(True)
         self.scissor.setEnabled(True)
-
-
-
-
+        
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MainWindow()
