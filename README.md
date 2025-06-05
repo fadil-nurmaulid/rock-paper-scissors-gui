@@ -26,4 +26,7 @@ Install with pip if not yet installed:
 ```bash
 pip install pyqt5
 ```
+## 🚀 How to Run
+
+
 
