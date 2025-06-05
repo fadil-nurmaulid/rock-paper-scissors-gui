@@ -46,6 +46,15 @@ self.rock.setEnabled(False)
 self.paper.setEnabled(False)
 self.scissors.setEnabled(False)
 ```
+- Random choice by computer:
+```bash
+comp_choice = random.choice(["🗿", "📃", "✂️"])
+```
+## 👤 Author
+
+Made by Fadil Nurmaulid
+As a fun mini project to explore PyQt5 and GUI interactivity.
+
 
 
 
