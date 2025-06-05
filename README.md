@@ -28,5 +28,31 @@ pip install pyqt5
 ```
 ## 🚀 How to Run
 
+Clone or download this project, then run:
+```bash
+python rock_paper_scissors.py
+```
+## 📸 Preview
+![Screenshot](assets/Screenshot.png)
+## 🔍 Code Highlights
+
+- Button press handled using lambda:
+```bash
+self.rock.clicked.connect(lambda: self.play("Rock"))
+```
+- Button disable after play:
+```bash
+self.rock.setEnabled(False)
+self.paper.setEnabled(False)
+self.scissors.setEnabled(False)
+```
+
+
+
+
+
+
+
+
 
 
